@@ -1,6 +1,6 @@
 ## This is the reproduces repository for the [issue](https://github.com/open-telemetry/opentelemetry-java-instrumentation/issues/11576)
 
-It happens with spring-security and `@Valid` and `@Positive` validation
+It happens with `spring-security` and `@Valid` and `@Positive` validation
 
 ```
 java.lang.NoClassDefFoundError: jakarta/servlet/ServletException
@@ -236,7 +236,7 @@ java.lang.NoClassDefFoundError: jakarta/servlet/ServletException
 
 ### I want you to run and check it please.
 
-#### run application with jvm options `-XX:+EnableDynamicAgentLoading -javaagent:opentelemetry-javaagent.jar`
+#### Run application with jvm options `-XX:+EnableDynamicAgentLoading -javaagent:opentelemetry-javaagent.jar`
 
 1. abnormal violated case(java.lang.NoClassDefFoundError: jakarta/servlet/ServletException)
 
