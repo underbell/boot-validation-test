@@ -241,11 +241,11 @@ java.lang.NoClassDefFoundError: jakarta/servlet/ServletException
 1. abnormal violated case(java.lang.NoClassDefFoundError: jakarta/servlet/ServletException)
 
 ```
-curl http://localhost:8080/users/1\?page\=1\&size\=10 -H "Authorization: Bearer 1"
+curl http://localhost:8080/users/1
 ```
 
 2. normal violated case
 
 ```
-curl http://localhost:8080/users/2\?page\=1\&size\=10 -H "Authorization: Bearer 1"
+curl http://localhost:8080/users/2
 ```
